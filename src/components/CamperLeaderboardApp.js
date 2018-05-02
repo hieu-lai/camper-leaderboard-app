@@ -13,14 +13,10 @@ export default class CamperLeaderboardApp extends React.Component {
       .then(res => res.json())
       .then(
         (result) => {
-          this.setState({
-            campers: result
-          });
+          this.setState(() => ({ campers: result }));
         },
         (error) => {
-          this.setState({
-            error
-          });
+          this.setState(() => ({ error }));
         }
       )
   };
