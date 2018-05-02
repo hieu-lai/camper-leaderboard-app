@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Camper = () => (
+const Camper = (props) => (
     <tr>
-      <td>1</td>
-      <td>John Doe</td>
-      <td>300</td>
-      <td>1000</td>
+      <td>{props.rank}</td>
+      <td><img src={props.idImg} alt='idImg' height="30"/>{props.userName}</td>
+      <td>{props.recentPoints}</td>
+      <td>{props.allTimePoints}</td>
     </tr>  
 )
 

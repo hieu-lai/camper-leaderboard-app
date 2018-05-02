@@ -1,7 +1,7 @@
 import React from 'react';
 import Camper from './Camper';
 
-const Campers = () => (
+const Campers = (props) => (
   <div>
     <table>
       <thead>
@@ -13,7 +13,16 @@ const Campers = () => (
         </tr>
       </thead>
       <tbody>
-        <Camper />  
+        {props.campers.map((camper, index) => (
+          <Camper 
+            key={camper.username}
+            rank={index + 1}
+            userName={camper.username}
+            idImg={camper.img}
+            recentPoints={camper.recent}
+            allTimePoints={camper.alltime}
+          />
+        ))}    
       </tbody>  
     </table> 
   </div>    
