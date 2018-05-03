@@ -1,0 +1,12 @@
+img {
+  border: .2rem solid lighten($purple, 20%);
+  border-radius: 20%;
+  height: $xl-size;
+  margin-right: $s-size;
+  vertical-align: middle;
+}
+
+.userName {
+  color: $off-white;
+  text-decoration: none;
+}

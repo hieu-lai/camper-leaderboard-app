@@ -10,7 +10,7 @@ const Camper = (props) => (
     <tr>
       <td>{props.rank}</td>
       <td>
-        <a href={shortURL + props.userName}>
+        <a href={shortURL + props.userName} className="userName">
           <img src={props.idImg} alt='idImg' height="30"/>
           {props.userName}
         </a>

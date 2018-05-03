@@ -41,7 +41,6 @@ export default class CamperLeaderboardApp extends React.Component {
   render() {
     return (
       <div>
-        {console.log(this.state.campers)}
         <Banner />
         <div className="container">
         <Header />

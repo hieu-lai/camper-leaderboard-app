@@ -1,7 +1,8 @@
 .header {
   background: $purple;
+  border-bottom: $xs-size solid darken($purple, 10%);
   border-radius: $s-size $s-size 0 0; 
-  margin: $l-size 0;
+  margin: $l-size 0 0 0;
   padding: 1px 0;
 }
 

@@ -1,10 +1,29 @@
 table {
   width: 100%;
+  border-collapse: collapse;
 }
 
-th, td {
+th {
+  background: $off-black;
+  padding: $s-size;
+}
+
+td {
   padding: $xs-size;
 }
+
+td:nth-child(n+3) {
+  text-align: center;
+}
+
 .th--left {
   text-align: left;
+}
+
+tr:nth-child(even) {
+  background: $light-blue;
+}
+
+tr:nth-child(odd) {
+  background: lighten($light-blue, 10%);
 }

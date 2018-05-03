@@ -3,6 +3,14 @@ html {
 }
 
 body {
+  background: $dark-blue;
+  color: $off-white;
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
+}
+
+@media (max-width: $mobile-pixel) {
+  body {
+    font-size: $s-size;
+  }
 }
