@@ -1,3 +1,7 @@
+/*
+ * Create a table for the lists of campers
+*/ 
+
 import React from 'react';
 import Camper from './Camper';
 

@@ -1,3 +1,7 @@
+/*
+ * Header for the table of content
+*/
+ 
 import React from 'react';
 
 const Header = () => (

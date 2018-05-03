@@ -1,3 +1,7 @@
+/*
+ * Main component that handles all the rendering
+*/
+
 import React from 'react';
 import Banner from './Banner';
 import Header from './Header';

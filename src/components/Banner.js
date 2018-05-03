@@ -1,3 +1,7 @@
+/*
+ * The page's banner
+*/ 
+
 import React from 'react';
 
 const Banner = () => (

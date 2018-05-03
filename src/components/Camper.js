@@ -1,3 +1,7 @@
+/*
+ * Component for each camper in list
+*/
+
 import React from 'react';
 
 const shortURL = 'https://www.freecodecamp.com/';
