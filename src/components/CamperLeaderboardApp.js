@@ -6,6 +6,7 @@ import React from 'react';
 import Banner from './Banner';
 import Header from './Header';
 import Campers from './Campers';
+import Footer from './Footer';
 
 let apiURL = 'https://fcctop100.herokuapp.com/api/fccusers/top/recent';
 export default class CamperLeaderboardApp extends React.Component { 
@@ -50,6 +51,7 @@ export default class CamperLeaderboardApp extends React.Component {
           isRecent={this.state.recent === true}
         />
         </div>
+        <Footer />
       </div>
     )
   };
