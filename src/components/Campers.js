@@ -8,8 +8,22 @@ const Campers = (props) => (
         <tr>
           <th>#</th>
           <th>Camper Name</th>
-          <th><button>Points in the past 30 days</button></th>
-          <th><button>All time points</button></th> 
+          <th>
+            <button 
+              onClick={props.handleTogglePoints}
+              disabled={props.isRecent}
+            >
+              Points in the past 30 days {props.isRecent && <span>&#x25BC;</span>}
+            </button>
+          </th>
+          <th>
+            <button 
+              onClick={props.handleTogglePoints}
+              disabled={!props.isRecent}
+            >
+              All time points {!props.isRecent && <span>&#x25BC;</span>}
+            </button>
+          </th> 
         </tr>
       </thead>
       <tbody>
