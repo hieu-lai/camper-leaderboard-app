@@ -10,8 +10,8 @@ const Campers = (props) => (
     <table>
       <thead>
         <tr>
-          <th>#</th>
-          <th>Camper Name</th>
+          <th className="th--left">#</th>
+          <th className="th--left">Camper Name</th>
           <th>
             <button 
               onClick={props.handleTogglePoints}

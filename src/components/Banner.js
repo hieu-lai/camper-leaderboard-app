@@ -5,7 +5,7 @@
 import React from 'react';
 
 const Banner = () => (
-  <div>
+  <div className="banner">
     <h3>freeCodeCamp icon here</h3>
   </div>
 )

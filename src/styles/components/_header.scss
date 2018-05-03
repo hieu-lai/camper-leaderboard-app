@@ -1,0 +1,12 @@
+.header {
+  background: $purple;
+  border-radius: $s-size $s-size 0 0; 
+  margin: $l-size 0;
+  padding: 1px 0;
+}
+
+.header__title {
+  color: white;
+  font-size: $l-size;
+  text-align: center;
+}

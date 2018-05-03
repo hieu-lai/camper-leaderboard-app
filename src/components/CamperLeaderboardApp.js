@@ -43,12 +43,14 @@ export default class CamperLeaderboardApp extends React.Component {
       <div>
         {console.log(this.state.campers)}
         <Banner />
+        <div className="container">
         <Header />
         <Campers 
           campers={this.state.campers} 
           handleTogglePoints={this.handleTogglePoints}
           isRecent={this.state.recent === true}
         />
+        </div>
       </div>
     )
   };

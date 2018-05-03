@@ -5,8 +5,8 @@
 import React from 'react';
 
 const Header = () => (
-  <div>
-    <h1>Leaderboard</h1>
+  <div className="header">
+    <h1 className="header__title">Leaderboard</h1>
   </div>    
 )
 
