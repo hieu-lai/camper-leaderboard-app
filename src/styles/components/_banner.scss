@@ -1,5 +1,19 @@
 .banner {
   background: $off-black;
   color: white;
-  padding: $s-size $s-size;
+  padding: $m-size $m-size;
+}
+
+.banner__logo {
+  height: $xl-size;
+}
+
+@media (max-width: $mobile-pixel) {
+  .banner {
+    padding: $s-size $s-size;
+  }
+
+  .banner__logo {
+    height: $l-size;
+  }
 }

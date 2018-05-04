@@ -1,3 +1,7 @@
+/*
+ * Footer of page
+*/
+  
 import React from 'react';
 
 const Footer = () => (

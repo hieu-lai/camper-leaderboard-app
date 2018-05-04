@@ -1,5 +1,12 @@
 .container {
   margin: 0 auto;
-  max-width: 100rem;
-  padding: $m-size;
+  max-width: 90rem;
+  padding: $m-size $m-size;
 }
+
+@media (max-width: $mobile-pixel) {
+  .container {
+    padding: 0 $m-size;
+  }
+}
+

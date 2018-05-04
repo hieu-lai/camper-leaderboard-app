@@ -6,7 +6,11 @@ import React from 'react';
 
 const Banner = () => (
   <div className="banner">
-    <h3>freeCodeCamp icon here</h3>
+    <img 
+      className="banner__logo"
+      src={require('../images/freeCodeCamp-icon.png')} 
+      alt="freeCodeCamp_logo" 
+    />
   </div>
 )
 

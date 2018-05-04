@@ -1,5 +1,5 @@
-img {
-  border: .2rem solid lighten($purple, 20%);
+.idImg {
+  border: .3rem solid $off-black;
   border-radius: 20%;
   height: $xl-size;
   margin-right: $s-size;
@@ -10,3 +10,9 @@ img {
   color: $off-white;
   text-decoration: none;
 }
+
+@media (max-width: $mobile-pixel) {
+  .idImg {
+    height: $l-size;
+  }
+} 
