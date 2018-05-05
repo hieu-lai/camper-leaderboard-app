@@ -8,7 +8,9 @@
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack --watch",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "postinstall": "webpack -p",
+    "start": "node server.js"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
